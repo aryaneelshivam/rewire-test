@@ -498,7 +498,7 @@ def create_meditation_sequence(sequence_name, mood_sequence, durations=None, sam
     return all_files, sequence_info
 
 def main():
-    st.title("Rewire your brain")
+    st.title("Rewire")
     
     option = st.radio("Choose an option:", ["Single Mood Transition", "Meditation Sequence"])
     
