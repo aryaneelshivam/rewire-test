@@ -500,12 +500,6 @@ def create_meditation_sequence(sequence_name, mood_sequence, durations=None, sam
 def main():
     st.title("🧠 Enhanced Binaural Beat & Solfeggio Frequency Generator 🎵")
     
-    st.sidebar.header("About")
-    st.sidebar.info(
-        "This app generates binaural beats combined with Solfeggio frequencies "
-        "and natural sounds to help with mood transitions and meditation."
-    )
-    
     option = st.radio("Choose an option:", ["Single Mood Transition", "Meditation Sequence"])
     
     if option == "Single Mood Transition":
